@@ -168,3 +168,18 @@ alias dbm='spring rake db:migrate'
 alias dbmr='spring rake db:migrate:redo'
 alias dbmd='spring rake db:migrate:down'
 alias dbmu='spring rake db:migrate:up'
+
+# Grails
+alias gra='grails -reloading run-app'
+
+# Push & Pop Directories
+alias cd='pushd'
+alias bb='popd'
+
+# Git
+alias gg='git gui'
+alias gk='gitk -n 500 --all'
+alias grh='git reset --hard'
+alias gpo='git push origin'
+alias gfo='git fetch origin'
+alias grb='git rebase'
